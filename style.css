@@ -1,0 +1,79 @@
+/* Font */
+
+#ctime, #tpick {
+
+font-family: Impact, sans-serif;
+
+}
+
+.header{
+text-align:center;
+font-weight:normal;
+margin:5px 0 10px 0;
+}
+
+/* Current Time */
+
+#ctime{
+margin: 0 auto;
+max-width: 350px;
+padding:10px;
+background: #000;
+text-align:center;
+}
+
+#ctime .header{
+color: #c61d1d;
+}
+#ctime .square {
+display:inline-block;
+padding:10px;
+margin: 5px;
+}
+
+#ctime .digits{
+color:#000;
+background:#fff;
+font-size:24px;
+}
+#ctime .text {
+margin-top: 10px;
+color: #ddd;
+}
+
+/* Time Picker */
+
+#tpick {
+margin: 0 auto;
+max-width: 350px;
+padding: 10px;
+background: #f2f2f2;
+white-space: nowrap;
+}
+
+#tpick-h, #tpick-m, #tpick-s {
+display:inline-block;
+width:32%;
+}
+#tpick select {
+box-sizing: padding-box;
+width:100%;
+font-size: 1.2em;
+font-weight:bold;
+margin:20px 0;
+}
+#tset, #treset{
+box-sizing: padding-box;
+width: 50%;
+background: #3368b2;
+color:#fff;
+padding:10px;
+border: 0;
+cursor: pointer;
+}
+#tset:disabled, #treset:disabled{
+background:#aaa;
+color:#888;
+}
+
+
